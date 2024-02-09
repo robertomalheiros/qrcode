@@ -15,7 +15,7 @@ export default function Home() {
     setQrCode(link);
   };
 
-  console.log(link)
+
   return (
     <main className="flex min-h-screen flex-col items-center bg-gray-100 justify-between p-24">
 

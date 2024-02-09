@@ -41,10 +41,10 @@ export default function Home() {
             <input autoComplete="off" id="link" name="link" type="text" className="peer placeholder-transparent h-10 w-full border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:borer-rose-600" placeholder="link" onChange={(e) => setLink(e.target.value)}/>							
             <label htmlFor="link" className="absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Cole seu link</label>
 						</div>
-						<div className="relative">
+						<div className="relative flex flex-col items-center">
             <button className="bg-blue-500 text-white rounded-md px-2 py-1" onClick={generateQRCode}>Gerar</button>
 						</div>
-            {qrCode && <div className="mt-10"><QRCode value={qrCode} /></div>}
+            {qrCode && <div className="mt-10 flex flex-col items-center"><QRCode value={qrCode} /></div>}
 					</div>
 				</div>
 			</div>

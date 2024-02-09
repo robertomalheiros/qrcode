@@ -24,7 +24,8 @@ export default function Home() {
 					<h1 className="text-2xl font-semibold">GERADOR QR CODE </h1>
     
           <h1>2ª VARA SSJ VCA</h1>
- 
+		<p></p>
+		<p></p>
 	<div className="relative py-3 sm:max-w-xl sm:mx-auto">
 
 		<div
